@@ -14,7 +14,8 @@ Using textual, categorical, and numerical data, the system analyzes movies to fi
 •	*Visual Exploration*: Features a word cloud to showcase the diversity of genres within the dataset.
 
 ## Dataset and Preprocessing
-The foundation of this system is built on the [MovieLens Latest Small Dataset](https://grouplens.org/datasets/movielens/), a lightweight version of the MovieLens dataset curated by GroupLens Research. This smaller dataset contains around 100,000 ratings across 9,000 movies, contributed by 600 users. the dataset offers a rich mix of information, including movie genres, titles, and user ratings.
+The foundation of this system is built on the [The Movies Dataset Kaggle](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset), which provides metadata for approximately 45,000 movies listed in the Full MovieLens Dataset. The dataset includes movies released on or before July 2017 and contains detailed information such as cast, crew, plot keywords, budget, revenue, posters, release dates, languages, production companies, countries, TMDB vote counts, and vote averages.
+
 Preprocessing Steps:
 
 1.	*Feature Extraction*: Key attributes like cast, crew, genres, production companies, and taglines are carefully curated and cleaned.
