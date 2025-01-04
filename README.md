@@ -5,9 +5,13 @@ Movies can evoke powerful emotions and offer moments of escape but deciding what
 Using textual, categorical, and numerical data, the system analyzes movies to find connections and deliver tailored suggestions. It incorporates advanced embedding techniques and efficient search algorithms, ensuring a balance between accuracy and practicality. Whether you're revisiting a specific genre or looking for a movie with a similar cast, this system aims to simplify the process of discovering your next watch.
 
 ## Key Features
+
 •	*Content-Based Filtering*: Provide recommendations by analyzing the intrinsic features of movies.
+
 •	*Advanced Embedding Techniques*: Employs the state-of-the-art SentenceTransformer to extract meaningful representations of textual data.
+
 •	*Scalable Search with FAISS*: Implements FAISS to make searching for similar movies lightning-fast, even for large datasets.
+
 •	*Visual Exploration*: Features a word cloud to showcase the diversity of genres within the dataset.
 
 ## Dataset and Preprocessing
@@ -15,8 +19,11 @@ The foundation of this system is built on the MovieLens Latest Small Dataset, a 
 Preprocessing Steps:
 1.	*Feature Extraction*: Key attributes like cast, crew, genres, production companies, and taglines are carefully curated and cleaned.
 2.	*Categorization*:
+   
     o	Runtime: Movies are bucketed into "short," "medium," and "long" categories.
+  	
     o	Vote Averages and Release Years: Normalized to ensure fairness in comparisons.
+  	
 These preprocessing steps ensure a high-quality dataset and a solid foundation for generating recommendations.
 
 ## Methodology
