@@ -1,5 +1,4 @@
-# movie-recommender
-
+# movie-recommendation-system
 ## Project Overview
 Movies can evoke powerful emotions and offer moments of escape but deciding what to watch next often feels like a challenge. This project takes a straightforward approach to address that—by building a content-based movie recommendation system that suggests similar movies based on features like genres, cast, and storyline.
 Using textual, categorical, and numerical data, the system analyzes movies to find connections and deliver tailored suggestions. It incorporates advanced embedding techniques and efficient search algorithms, ensuring a balance between accuracy and practicality. Whether you're revisiting a specific genre or looking for a movie with a similar cast, this system aims to simplify the process of discovering your next watch.
